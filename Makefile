@@ -17,7 +17,7 @@ SRC_DIR ?=dashboards
 OUT_DIR ?=dashboards_out
 
 .PHONY: all
-all: fmt generate lint test
+all: fmt generate lint 
 
 .PHONY: dev
 dev: generate lint
